@@ -55,7 +55,6 @@ void loop() {
     motorRight.run(motorSpeed2);
     motorLeft.run(-motorSpeed1);
     delay(100);
-   // Serial.println(ultraSensor.distanceCm());
   } 
 
  if ( V2 < 4.45 && V2 >= 4.2){
