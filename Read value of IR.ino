@@ -1,3 +1,4 @@
+//Read IR 
 int A = A2;
 int B = A1;
 
