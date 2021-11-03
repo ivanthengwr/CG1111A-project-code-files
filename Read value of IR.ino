@@ -12,7 +12,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   digitalWrite(A,LOW);
   digitalWrite(B, LOW);
 readVal = analogRead(readPin);
