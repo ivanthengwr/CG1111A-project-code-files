@@ -50,6 +50,7 @@ void loop() {
   motorLeft.run(-motorSpeedstr);
 
 //Serial.println(ultraSensor.distanceCm());
+  
  if (ultraSensor.distanceCm() <= 8){
     //m2 left motor, m1 right motor
     motorRight.run(motorSpeed2);
