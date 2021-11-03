@@ -5,7 +5,6 @@ MeLineFollower lineFinder(PORT_2);
 MeDCMotor motorRight(M1);
 MeDCMotor motorLeft(M2);
 
-
 uint8_t motorspeed1 = 492;
 float colourArray[] = {165,140,150};
 
