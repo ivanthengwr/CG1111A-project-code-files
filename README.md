@@ -1,5 +1,4 @@
 # CG1111A-project-code-files
-Contains the description, code, and progress of the project so far
 
 Alright guys so this is what we need to do by the next lab before the mock run.
 
