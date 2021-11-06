@@ -15,8 +15,8 @@
 // Define colour sensor LED pins
 //int ledArray[] = {2,3,4};// original code
 int red_num = 0;
-int blue_num = 1;
-int green_num = 2;
+int green_num = 1;
+int blue_num = 2;
 int A = A2; //new code
 int B = A1; //new code
 int LDR = A3; //new code
