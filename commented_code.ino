@@ -206,7 +206,7 @@ V2Emitter = (5./1023.)*readVal;
 V2diff = V2Ambient-V2Emitter;
 }
 
-
+// Define the music notes
 int melody[] = {
 392,//5  
 392,//5
@@ -217,6 +217,7 @@ int melody[] = {
 0,
 };
 
+// Set the duration of the notes
 int noteDurations[] = {
   8,8,4,4,4,4,
 };
