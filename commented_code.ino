@@ -156,9 +156,7 @@ void colour_sense_and_turn(){
   delay(50);
 }
 
-
-
-/////HELPER FUNCTIONS///////
+//HELPER FUNCTIONS
 void turn_on_red(){ //Turn on Red LED
   digitalWrite(A, HIGH);
   digitalWrite(B, HIGH);
@@ -173,8 +171,6 @@ void turn_on_green(){ //Turn on Green LED
   digitalWrite(A, HIGH);
   digitalWrite(B, LOW);
 }
-  
-
 
 int getAvgReading(int times){     
 //find the average reading for the requested number of times of scanning LDR
@@ -210,6 +206,7 @@ V2Emitter = (5./1023.)*readVal;
 V2diff = V2Ambient-V2Emitter;
 }
 
+
 int melody[] = {
 392,//5  
 392,//5
@@ -224,6 +221,7 @@ int noteDurations[] = {
   8,8,4,4,4,4,
 };
 
+//This function is used to generate the music, note by note
 void playmusic()
 {
     for (int thisNote = 0; thisNote < 7; thisNote++) {
