@@ -1,7 +1,5 @@
 #include <MeMCore.h>
 
-//5.90-6.01
-
 MeUltrasonicSensor ultraSensor(PORT_1);
 MeLineFollower lineFinder(PORT_2);
 MeDCMotor motorRight(M1);
